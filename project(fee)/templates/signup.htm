@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="static/signup.css">
+</head>
+<header>
+    <nav>
+        <div class="left">Expenso</div>
+        <div class="right">
+            <ul>
+                <li><a href="static/expensetracker.htm">Home</a></li>
+                <li><a href="static/aboutus(et).htm">About us</a></li>
+                <li><a href="static/contactus(et).html">Contact us</a></li>
+            
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    
+<body>
+    <div class="wrapper">
+        <form method="POST" action="/signup">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" name='username' id="username" required>
+            </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" name="password" id="password" required>
+                </div>
+            
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                </div>
+
+                <button type="submit" class="bt">Login</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footerfirst">
+                <h3>For more information:</h3>
+            </div>
+            <div class="footersecond">
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                    <li>References</li>
+                </ul>
+            </div>
+            <div class="footerthird">
+
+            </div>
+            <div class="footerfourth">
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            WWW.Expenso.com | All rights reserved
+        </div>
+    </footer>
+
+
+</html>

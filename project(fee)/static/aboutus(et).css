@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: rgb(18, 18, 32);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 0.9rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    overflow: hidden;
+}
+
+.heading h1 {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+}
+
+.hero-content {
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
+    animation: fadeInUp 2s ease;
+}
+
+.hero-content h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: rgb(112, 57, 178);
+}
+
+.hero-content p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+
+}
+
+.hero-content button {
+    display: inline-block;
+    background-color: rgb(18, 18, 32);
+    padding: 12px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px
+}
+
+.hero-content button:hover {
+    transform: scale(1.1);
+
+}
+
+.hero-image {
+    flex: 1;
+    width: 300px;
+    margin: auto;
+}
+
+#sakshamg {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#samarth {
+    width: 31%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#sakshams{
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+
+
+}
+
+@media screen and (max-width:768px) {
+    .heading h2 {
+        font-size: 45px;
+        margin-top: 30px;
+    }
+
+    .hero {
+        margin: 0px;
+    }
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+        margin: 0px 40px;
+
+    }
+
+    .hero-content {
+        width: 100%;
+        margin: 35px 0px;
+    }
+
+    .hero-content h2 {
+        font-size: 30px;
+    }
+
+    .hero-content p {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .hero-content button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+}
+
+footer {
+    background-color: rgb(18, 18, 32);
+
+}
+
+.footer {
+    display: flex;
+    margin: 23px 122px;
+    justify-content: space-evenly;
+
+
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+}

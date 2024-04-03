@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(18, 18, 32);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 0.9rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+body {
+    background: rgb(0, 0, 33);
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box {
+    background: #fff;
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background: rgb(34, 10, 63);
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 40px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: rgb(34, 10, 63);
+}
+
+button {
+    background: rgb(34, 10, 63);
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.contact-left h3 {
+    color: rgb(34, 10, 63);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right h3 {
+
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child {
+    padding-right: 20px;
+}
+
+tr td {
+    padding-top: 20px;
+}
+
+footer {
+    background-color: rgb(21, 10, 34);
+
+}
+
+.footer {
+    display: flex;
+    margin: 10px 122px;
+    justify-content: space-evenly;
+
+
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+}
+
+footer {
+    background-color: rgb(18, 18, 32);
+
+}
+
+.footer {
+    display: flex;
+    margin: 23px 122px;
+    justify-content: space-evenly;
+
+
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+}
